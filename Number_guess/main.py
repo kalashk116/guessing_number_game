@@ -2,7 +2,7 @@ import random
 
 k = random.randrange(0,100)
 print('THIS IS A NUMBER GUESSING GAME. YOU HAVE THE NUMBER AND YOU HAVE 10 TRIES')
-tri = 9
+tri = 11
 
 for i in range(11):
     try:
@@ -21,3 +21,4 @@ for i in range(11):
         break
     tri = tri - 1
     print('You have ' , tri , ' tries left.')
+    print('___________________________________________')
